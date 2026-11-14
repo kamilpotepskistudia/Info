@@ -1,0 +1,58 @@
+## Visual Studio / .NET – pliki generowane i lokalne
+
+# Katalog ustawień Visual Studio
+.vs/
+
+# Wyniki kompilacji
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+[Pp]ublish/
+PublishScripts/
+*.pubxml
+*.publishproj
+
+# Pliki użytkownika
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Pliki tymczasowe i cache
+*.cache
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+_ReSharper*/
+*.DotSettings.user
+.idea/
+.vscode/
+
+# Lokalne bazy danych
+*.mdf
+*.ldf
+*.ndf
+
+# Systemowe
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
