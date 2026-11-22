@@ -46,7 +46,7 @@ namespace Info.Models
         [Display(Name = "Kategoria tekstu:")]
         public int CategoryId { get; set; }
 
-        public Category Category { get; set; } = null!;
+        public Category? Category { get; set; }
 
         // Autor tekstu – relacja opcjonalna
         [Display(Name = "Autor tekstu:")]

@@ -1,4 +1,5 @@
 using Info.Data;
+using Info.Extensions;
 using Info.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -42,5 +43,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+// Wypełnienie bazy danymi początkowymi
+await app.SeedData();
 
 app.Run();
