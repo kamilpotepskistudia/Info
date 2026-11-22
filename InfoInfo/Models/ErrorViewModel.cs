@@ -1,4 +1,4 @@
-namespace Info.Models
+namespace InfoInfo.Models
 {
     public class ErrorViewModel
     {

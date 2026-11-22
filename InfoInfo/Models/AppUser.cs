@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Info.Models
+namespace InfoInfo.Models
 {
     public class AppUser : IdentityUser
     {

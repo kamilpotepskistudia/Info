@@ -1,8 +1,8 @@
-using Info.Models;
+using InfoInfo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Info.Data
+namespace InfoInfo.Data
 {
     public class InfoSeeder
     {

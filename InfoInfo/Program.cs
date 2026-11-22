@@ -1,6 +1,6 @@
-using Info.Data;
-using Info.Extensions;
-using Info.Models;
+using InfoInfo.Data;
+using InfoInfo.Extensions;
+using InfoInfo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

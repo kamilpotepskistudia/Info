@@ -1,8 +1,8 @@
-using Info.Models;
+using InfoInfo.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Info.Data
+namespace InfoInfo.Data
 {
     public class ApplicationDbContext : IdentityDbContext<AppUser>
     {

@@ -1,6 +1,6 @@
-using Info.Data;
+using InfoInfo.Data;
 
-namespace Info.Extensions
+namespace InfoInfo.Extensions
 {
     public static class HostExtensions
     {
